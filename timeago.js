@@ -45,6 +45,16 @@ var timeago = function() {
     return t[1] * eval(o[t[2]]);
   }
 
+  obj.nowfriendly = function(nd, s) {
+    var ts = Date.now() - new Date(nd).getTime();
+
+    if (ts < o.minute) {
+      return 'right now';
+    }
+
+    return obj.ago(nd, s);
+  }
+
   obj.mintoread = function(text, altcmt, wpm) {
     var m = Math.round(text.split(' ').length / (wpm || 200));
     return (m || '< 1') + (altcmt || ' min to read');
