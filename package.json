@@ -1,21 +1,25 @@
 {
-  "name": "time-ago",
-  "description": "",
-  "url": "http://github.com/dpweb/time-ago",
+  "name": "@icetee/time-ago",
+  "description": "=======",
+  "url": "https://github.com/icetee/time-ago",
   "keywords": [
     "util",
     "nodejs"
   ],
-  "author": {
-    "name": "C Borkert",
-    "email": "ILIKECHEESE@dpsw.info"
-  },
+  "author": "Tamás András Horváth <htomy92@gmail.com>",
   "main": "timeago.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/dpweb/time-ago.git"
+    "url": "git://github.com/icetee/time-ago.git"
   },
-  "version": "0.2.1"
+  "version": "0.2.2",
+  "bugs": {
+    "url": "https://github.com/icetee/time-ago/issues"
+  },
+  "homepage": "https://github.com/icetee/time-ago#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
 }
