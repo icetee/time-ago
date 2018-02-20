@@ -48,7 +48,7 @@ var timeago = function() {
   obj.nowfriendly = function(nd, s) {
     var ts = Date.now() - new Date(nd).getTime();
 
-    if (ts < o.minute) {
+    if (ts <= o.minute) {
       return 'right now';
     }
 

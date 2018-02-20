@@ -1,6 +1,6 @@
 {
   "name": "@icetee/time-ago",
-  "description": "=======",
+  "description": "Simple timeago function takes same params as new Date(...)",
   "url": "https://github.com/icetee/time-ago",
   "keywords": [
     "util",
@@ -13,13 +13,13 @@
     "type": "git",
     "url": "git://github.com/icetee/time-ago.git"
   },
-  "version": "0.2.2",
+  "version": "0.3.0",
   "bugs": {
     "url": "https://github.com/icetee/time-ago/issues"
   },
   "homepage": "https://github.com/icetee/time-ago#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "license": "MIT"
 }

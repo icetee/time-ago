@@ -25,8 +25,9 @@ console.log(
 console.log(
   ta.nowfriendly(new Date() - 1000), '[' + (ta.nowfriendly(new Date() - 1000) === 'right now') + ']',
   ta.nowfriendly(new Date() - 6 * 1000), '[' + (ta.nowfriendly(new Date() - 6 * 1000) === 'right now') + ']',
-  ta.nowfriendly(new Date() - 60 * 1000), '[' + (ta.nowfriendly(new Date() - 60 * 1000) === ta.ago(new Date() - 60 * 1000)) + ']',
-  ta.nowfriendly(new Date() - 60 * 1000), '[' + (ta.nowfriendly(new Date() - 60 * 1000, true) === ta.ago(new Date() - 60 * 1000, true)) + ']',
+  ta.nowfriendly(new Date() - 60 * 1000), '[' + (ta.nowfriendly(new Date() - 60 * 1000) === 'right now') + ']',
+  ta.nowfriendly(new Date() - 61 * 1000), '[' + (ta.nowfriendly(new Date() - 61 * 1000) === ta.ago(new Date() - 60 * 1000)) + ']',
+  ta.nowfriendly(new Date() - 61 * 1000), '[' + (ta.nowfriendly(new Date() - 61 * 1000, true) === ta.ago(new Date() - 61 * 1000, true)) + ']',
 );
 
 var i = 0,
